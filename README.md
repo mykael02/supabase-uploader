@@ -22,3 +22,7 @@ Set `DRY_RUN=false` in `.env`, then:
 - `npm run resume`
 
 Retries only FAIL and SKIP from the last upload log.
+
+npm init -y
+npm i @supabase/supabase-js mime-types
+npm i dotenv
