@@ -1,0 +1,16 @@
+{
+  "name": "supabase-uploader",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "list": "node upload_list.js",
+    "upload": "node upload_router.js",
+    "resume": "node upload_resume.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "dotenv": "^17.2.3",
+    "mime-types": "^2.1.35"
+  }
+}
